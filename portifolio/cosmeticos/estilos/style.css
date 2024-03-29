@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*
+#693B75
+#8C36A3
+
+#693B75
+*/
+
+@font-face {
+    font-family: "Emily";
+    src: url(../fontes/Emily\ Olivia.otf) format("opentype");
+}
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor1: #C29CCD;
+    --cor2: #8C36A3;
+    --cor3: #C000F5;
+    --cor4: #693B75;
+    --font: Emily;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+header {
+    background-color: var(--cor1);
+    height: 115px;
+    padding: 5px;
+}
+
+#logo {
+    background-color: #693B75;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: var(--font), sans-serif;
+    padding: 4px;
+}
+
+nav {
+    background-color: #F8DEA5;
+    padding: 10px;
+    
+}
+
+nav > a {
+    background-color: #693B75;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px #8a00b0c6;
+    margin-left: 10px;
+}
+
+nav  > a:hover {
+    background-color: #844b93;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+    max-width: 1000px;
+    min-width: 320px;
+
+}
+
+
+
+.botoes {
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+    
+}
+
+.produtos {
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: #693B75;
+    padding-bottom: 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main  h1, p {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--cor2);
+}
+
