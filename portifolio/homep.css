@@ -42,6 +42,9 @@ nav {
 nav #home {
     background-color: var(--color04);
 }
+nav #meusp {
+    background-color: var(--color04);
+}
 
 nav a {
     color: white;
@@ -54,26 +57,14 @@ nav > a:hover {
 }
 
 main {
-    color: white;
     background-color: var(--color05);
-    height: 1200px;
+    height: 1500px;
     width: 100%;
     margin: auto;
     max-width: 900px;
     border-radius: 0px 0px 30px 30px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.633);
     padding: 10px;
-}
-
-main h2 {
-    text-align: center;
-    padding: 10px;
-}
-
-main p {
-    text-align: center;
-    text-align: justify;
-    padding: 20px;
 }
 
 main h1.inicio {
@@ -86,13 +77,17 @@ main h1.inicio {
     background-image: linear-gradient(to right , transparent,#332F22, transparent );
 }
 
+main > div {
+    margin-bottom: 30px;
+}
+
 div {
     border-radius: 30px;
     margin: auto;
-    max-height: 700px;
+    max-height: 1100px;
     min-height: 400px;
     width: 80%;
-    height: 35%;
+    height: 28%;
     max-width: 500px;
     background-color: white;
     border: solid 5px var(--color01);
@@ -125,4 +120,8 @@ div img {
     margin: auto;
     border: solid 2px black;
     margin-bottom: 10px;
+}
+footer {
+    background-color: #DBA800;
+    text-align: center;
 }

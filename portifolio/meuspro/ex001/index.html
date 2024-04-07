@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testes de imagens</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        @font-face {
+            font-family: love;
+            src: url(fontes/love\ story\ ttf.ttf);
+        }
+
+        header {
+            background-color: aquamarine;
+            height: 80px;
+        }
+
+        body{
+            background-color: pink;
+        }
+    
+        main {
+            padding-top: 10px;
+            max-width: 1000px;
+            min-width: 350px;
+            margin: auto;
+            border-radius: 20px;
+            width: 800px;
+            height: 500px;
+            background-image: url(img/coracoes.webp);
+        }
+
+        
+
+        h1.titulo {
+            font-family: love,sans-serif;
+           text-align: center;
+           padding-top: 30px;
+           margin-bottom: 30px;
+        }
+
+        div.quadrado {
+            margin:auto ;
+            padding: 10px;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        div#q1 > img {
+           display: block;
+           margin: auto;
+        }
+
+        div#q1 > a {
+            padding-top:10px ;
+            color: bisque;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            margin: auto;
+            background-color: crimson;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+        } 
+
+        div#q1 > a:hover {
+            color: white;
+            background-color: rgba(194, 18, 53, 0.927);
+        }
+
+        div#q2 > img {
+           display: block;
+           margin: auto;
+        }
+
+        div#q2 > a {
+            padding-top:10px ;
+            color: bisque;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            margin: auto;
+            background-color: crimson;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+        } 
+
+        div#q2 > a:hover {
+            color: white;
+            background-color: rgba(194, 18, 53, 0.927);
+        }
+        
+        #dois {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1 class="titulo">Você me ama?</h1>
+        <div id="dois">
+            <div class="quadrado" id="q1">
+               <img src="img/snoopycora.png" alt="snoopycoracao" width="150">
+                <a href="">SIM!</a>
+            </div >
+            <div class="quadrado" id="q2">
+                <img src="img/253-2539844_peanuts-gang-charlie-brown-snoopy-cartoons-animation-snoopy-triste.png" alt="snoopy triste" width="97px">
+                <a href="">SIM!</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
